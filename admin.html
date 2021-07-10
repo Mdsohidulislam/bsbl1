@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>BSBL</title>
+</head>
+<body> 
+<h1>add member</h1>
+    <form action="">
+        <input onblur="handleBlur()" placeholder="নাম" type="text" name="name" id="name"/><br>
+        <input placeholder="ইমেইল" type="email" name="email" id="email"/><br>
+        <input placeholder="মোবাইল নং" type="text" name="phone" id="phone"/><br>
+        <input placeholder="কর্ম এলাকার নম্বর" type="text" name="কর্ম এলাকার নম্বর" id="name"/><br> 
+        <select name="adminType" id="adminType">
+            <option value="">Select admin level</option>
+            <option value="admin1">admin level 1</option>
+            <option value="admin2">admin level 2</option>
+            <option value="admin3">admin level 3</option>
+            <option value="admin4">admin level 4</option> 
+            <option value="admin5">admin level 5</option> 
+        </select>
+        <input type="submit" class='submitButton' value="sumbit"> 
+    </form>
+
+    <script src="./app.js"></script>
+</body>
+</html>
+
